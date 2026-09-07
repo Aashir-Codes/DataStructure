@@ -1,0 +1,2 @@
+Elements loaded: 524288
+Time taken: 59.3653 ms
