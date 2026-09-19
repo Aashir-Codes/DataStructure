@@ -1,3 +1,4 @@
+#pragma omce
 #include <iostream>
 #include <exception>
 class CircularDeque

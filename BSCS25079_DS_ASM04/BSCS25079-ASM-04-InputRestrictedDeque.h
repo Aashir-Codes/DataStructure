@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 using namespace std;
 
@@ -31,6 +32,8 @@ public:
         }
 
         rear = (rear + 1) % capacity;
+        arr[rear] = val;
+        count++;
         return true;
     }
     bool deleteFront()

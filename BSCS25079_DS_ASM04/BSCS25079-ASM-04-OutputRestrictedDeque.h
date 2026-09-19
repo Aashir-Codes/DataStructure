@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 using namespace std;
 
@@ -52,6 +53,7 @@ public:
             return false;
         }
         front = (front + 1) % capacity;
+        count--;
         return true;
     }
     int getFront() const
